@@ -1,16 +1,16 @@
 # (1) - Even or Odd
-# def even_or_odd(number):
-#     pass
-#     if number % 2 == 0:
-#         return 'Even'
-#     else:
-#         return 'Odd'
+def even_or_odd(number):
+    pass
+    if number % 2 == 0:
+        return 'Even'
+    else:
+        return 'Odd'
     
 # # (2) - Convert a Number to a String
-# def number_to_string(num):
-#     # Return a string of the number here!
-#     num = str(num)
-#     return num
+def number_to_string(num):
+    # Return a string of the number here!
+    num = str(num)
+    return num
 
 # (3) - Vowel Count
 def get_count(sentence):
@@ -21,5 +21,3 @@ def get_count(sentence):
         if char in vowels:
             count += 1
     return count
-print(get_count('whats going on little buddy'))
-    
